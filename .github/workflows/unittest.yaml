@@ -32,7 +32,7 @@ jobs:
 
       - name: Install dependencies with UV
         run: |
-          uv install
+          uv sync
 
       - name: Run unittests
         run: |
